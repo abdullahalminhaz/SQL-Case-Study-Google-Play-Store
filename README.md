@@ -39,13 +39,13 @@ The cleaned dataset was then imported into MySQL using `LOAD DATA INFILE`.
 
 ## 📁 File Overview
 
-| Path                        | File/Folder                  | Description                                                                 |
-|----------------------------|------------------------------|-----------------------------------------------------------------------------|
-| `/data/`                   | `googleplaystore(impure).csv`| Raw dataset containing missing values, duplicates, and inconsistencies      |
-| `/data/`                   | `playstore.csv`              | Cleaned and preprocessed dataset ready for SQL analysis                     |
-| `/sql/`                    | `analysis_queries.sql`       | SQL file containing all queries, triggers, stored procedures, and functions |
-| `/python/`                 | `data_cleaning.ipynb`        | Python Jupyter Notebook used for cleaning and preparing the dataset         |
-| `/`                        | `README.md`                  | Project overview, objectives, business questions, insights, and findings    |
+  | File/Folder                  | Description                                                     
+|------------------------------|-----------------------------------------------------------------------------|
+| `googleplaystore(impure).csv`| Raw dataset containing missing values, duplicates, and inconsistencies      |
+| `playstore.csv`              | Cleaned and preprocessed dataset ready for SQL analysis                     |
+| `analysis_queries.sql`       | SQL file containing all queries, triggers, stored procedures, and functions |
+| `data_cleaning.ipynb`        | Python Jupyter Notebook used for cleaning and preparing the dataset         |
+| `README.md`                  | Project overview, objectives, business questions, insights, and findings    |
 
 
 
